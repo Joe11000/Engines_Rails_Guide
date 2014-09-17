@@ -1,10 +1,7 @@
 require 'test_helper'
 
-class NavigationTest < ActionDispatch::IntegrationTest
-  fixtures :all
-
+class PostTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
 end
-
