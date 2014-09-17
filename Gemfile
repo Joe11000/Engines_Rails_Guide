@@ -76,4 +76,4 @@ group :production do
 end
 
 
-# gem 'blo rgh', path: "vendor/engines/blorgh"
+gem 'blorgh', path: "./blorgh"

@@ -1,4 +1,7 @@
 Blorgh::Engine.routes.draw do
-  resources :posts
-
+  shallow do
+    resources :posts do
+      resources :comments
+    end
+  end
 end
